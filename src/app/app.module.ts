@@ -5,8 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header/header.component';
 import { FooterComponent } from './components/footer/footer/footer.component';
+import { LoginflowModule } from './components/loginfow/loginflow.module';
+
 import { LoginComponent } from './components/loginfow/login/login.component';
-import { LoginflowModule } from './components/loginfow/loginflow/loginflow.module';
 
 @NgModule({
   declarations: [

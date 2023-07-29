@@ -4,11 +4,25 @@
 
     </div>
   </div>
-  <div class="row">
-    <div class="col-12">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-5">
       <form>
         <fieldset>
           <legend>Email and Password</legend>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>          
+        </fieldset>
+        <fieldset>
+          <legend>Form Controls</legend>
+          <div >
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
         </fieldset>
       </form>
     </div>
